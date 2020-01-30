@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div id="showcase">
+
+        <div class="container">
+            <form id="nums">
+                <input type="number" id="num-1" placeholder="number" required>
+                <input type="number" id="num-2" placeholder="number" required>
+            </form>
+
+            <div id="radio">
+                <input type="radio" id="plus" name="box" value="plus"checked>
+                <label for="plus">+</label>
+                <input type="radio" id="minus" name="box" >
+                <label for="minus">-</label>
+                <input type="radio" id="times" name="box" >
+                <label for="times">*</label>
+                <input type="radio" id="divide" name="box">
+                <label for="fivide">/</label>
+            </div>
+            
+            <button type="submit" id="button-1">Calculate</button>
+            <h1 id="show-result"></h1>
+
+        </div>
+    </div>
+<script src="app.js"></script>    
+</body>
+</html>
